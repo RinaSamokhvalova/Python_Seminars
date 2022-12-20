@@ -18,8 +18,8 @@ while flag == False:
 temp_number = number * 10**count
 count = 0
 sum = 0
-while temp_number!= 0:
-    sum = sum + temp_number%10
+while temp_number != 0:
+    sum = sum + temp_number % 10
     temp_number = temp_number // 10
 
 print(f"Сумма цифр числа {number} равна {int(sum)}")
