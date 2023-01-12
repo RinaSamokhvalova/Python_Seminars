@@ -14,8 +14,8 @@ def str_to_list (stroka: str):
     return spisok
 
 def find_max_min (str_list: list):
-    if str_list:
-        return max(str_list, key=int), min(str_list, key=int)  # min & max - ищут минимальную и максимальную строку в списке, 
+    if str_list:    #проверка на непустоту списка
+        return max(str_list, key=int), min(str_list, key=int)    # min & max - ищут минимальную и максимальную строку в списке, 
                                                                 # параметр key=int позволяет рассматривать строки как числа
     print("The data is incorrect")
     return []
